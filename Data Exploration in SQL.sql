@@ -5,10 +5,12 @@ Cleaning Exploration in SQL Queries
 */
 
 select top 5 *
-from CovidDeaths$
+from CovidDeaths
 
 select top 5 *
-from CovidDeaths_1
+from CovidVaccinations
+
+	
 
 select *
 from PortfolioProject..CovidDeaths
@@ -18,7 +20,7 @@ select *
 from PortfolioProject..CovidVaccinations
 order by 3,4
 
---Select Data that we are going to be using
+--Select relevant Columns of the Dataset to be used
 
 select Location, date, total_cases, new_cases, total_deaths, population
 from PortfolioProject..CovidDeaths
