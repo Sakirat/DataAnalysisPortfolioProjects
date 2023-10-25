@@ -1,4 +1,8 @@
+/*
 
+Cleaning Exploration in SQL Queries
+
+*/
 
 select top 5 *
 from CovidDeaths$
