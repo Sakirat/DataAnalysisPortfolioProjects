@@ -1,7 +1,7 @@
 
 /*
 
-Cleaning Data in SQL Queries
+Nashville Housing Data Cleaning in SQL Queries
 
 */
 
